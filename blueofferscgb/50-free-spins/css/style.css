@@ -222,7 +222,8 @@
 
         body {
             margin: 0;
-            line-height: inherit
+            line-height: inherit;
+            background-color: rgb(0, 0, 0);
         }
 
         hr {
@@ -1476,7 +1477,7 @@
         }
 
         .h-\[\%\] {
-            height: %
+            height: 100%
         }
 
         .h-\[100\%\] {
@@ -6902,3 +6903,5 @@
             margin-top: 15%;
             border-radius: 30px;
         }
+
+        
