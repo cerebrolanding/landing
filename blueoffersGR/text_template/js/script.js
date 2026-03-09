@@ -12,7 +12,7 @@ function findGetParameter(parameterName) {
     const links = document.querySelectorAll('a');
     links.forEach(link => {
         if (link.id === 'RegisterLink_URL') {
-            link.href = 'https://www.blacklotuscasino.com/welcome/bl-50-free-spins?TrackingToken=' + result;
+            link.href = 'https://www.grandrush.com/?TrackingToken=' + result;
         }
         // Add more conditions for other <a> elements if needed
     });

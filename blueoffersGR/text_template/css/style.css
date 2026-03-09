@@ -208,6 +208,7 @@ body{
       position: relative;
       transition: background 0.3s;
       cursor: pointer;
+      text-decoration: none;
     }
 
     .step-box:hover {
@@ -327,6 +328,11 @@ body{
 
     .hidden {
             display: none
+        }
+
+    
+    .app-font {
+            font-family: Roboto Condensed, sans-serif
         }
 
 
