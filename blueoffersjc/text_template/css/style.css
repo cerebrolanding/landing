@@ -211,6 +211,7 @@ body{
       position: relative;
       transition: background 0.3s;
       cursor: pointer;
+      text-decoration: none;
     }
 
     .step-box:hover {
@@ -274,6 +275,64 @@ body{
       font-weight: 400;
       text-align: center;
     }
+
+
+       
+    .text-gray-100 {
+            --tw-text-opacity: 1;
+            color: rgb(243 244 246 / var(--tw-text-opacity))
+    }
+
+    .text-gray-200 {
+            --tw-text-opacity: 1;
+            color: rgb(229 231 235 / var(--tw-text-opacity))
+    }
+
+    .text-gray-500 {
+            --tw-text-opacity: 1;
+            color: rgb(107 114 128 / var(--tw-text-opacity))
+    }
+
+    .text-gray-900 {
+            --tw-text-opacity: 1;
+            color: rgb(17 24 39 / var(--tw-text-opacity))
+    }
+
+    .hover\:text-gray-900:hover {
+                --tw-text-opacity: 1;
+                color: rgb(17 24 39 / var(--tw-text-opacity))
+    }
+    .peer:checked~.peer-checked\:text-gray-800 {
+            --tw-text-opacity: 1;
+            color: rgb(31 41 55 / var(--tw-text-opacity))
+    }
+
+    .peer:checked~.peer-checked\:text-gray-900 {
+            --tw-text-opacity: 1;
+            color: rgb(17 24 39 / var(--tw-text-opacity))
+    }
+
+    .relative {
+            position: relative
+    }
+
+    .h-full {
+            height: 100%
+    }
+
+    .md\:h-full {
+                height: 100%
+    }
+
+
+    .lg\:h-full {
+                height: 100%
+    }
+
+    .hidden {
+            display: none
+        }
+
 
 
 
