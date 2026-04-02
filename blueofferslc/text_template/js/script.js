@@ -17,6 +17,7 @@ function findGetParameter(parameterName) {
         // Add more conditions for other <a> elements if needed
     });
 }
+document.cookie = "TrackingToken=" + findGetParameter('TrackingToken') + "; path=/; domain=.luckycreek.com; secure; samesite=strict";
 
 // Call the function with the desired parameter name
 findGetParameter('TrackingToken');
